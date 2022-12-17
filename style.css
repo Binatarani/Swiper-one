@@ -135,6 +135,22 @@ body {
 /*
     media css
     */
+@media only screen and (max-width: 1024px) {
+  .slider-area {
+    width: 100%;
+  }
+  .slider-area .swiper-button-next,
+  .slider-area .swiper-button-prev {
+    top: 95%;
+  }
+  .review-slider {
+    width: 100%;
+  }
+  .review-slider .swiper-button-next,
+  .review-slider .swiper-button-prev {
+    top: 91%;
+  }
+}
 @media only screen and (max-width: 991px) {
   .slider-area {
     width: 100%;
@@ -154,14 +170,14 @@ body {
   }
   .slider-area .swiper-button-next,
   .slider-area .swiper-button-prev {
-    top: 95%;
+    top: 96%;
   }
   .review-slider {
     width: 100%;
   }
-  .single-review .swiper-button-next,
-  .single-review .swiper-button-prev {
-    top: 95%;
+  .review-slider .swiper-button-next,
+  .review-slider .swiper-button-prev {
+    top: 91%;
   }
 }
 @media only screen and (max-width: 425px) {
@@ -170,14 +186,14 @@ body {
   }
   .slider-area .swiper-button-next,
   .slider-area .swiper-button-prev {
-    top: 92%;
+    top: 93%;
   }
   .review-slider {
     width: 100%;
   }
-  .single-review .swiper-button-next,
-  .single-review .swiper-button-prev {
-    top: 92%;
+  .review-slider .swiper-button-next,
+  .review-slider .swiper-button-prev {
+    top: 90%;
   }
 }
 
@@ -187,13 +203,13 @@ body {
   }
   .slider-area .swiper-button-next,
   .slider-area .swiper-button-prev {
-    top: 92%;
+    top: 93%;
   }
   .review-slider {
     width: 100%;
   }
-  .single-review .swiper-button-next,
-  .single-review .swiper-button-prev {
-    top: 92%;
+  .review-slider .swiper-button-next,
+  .review-slider .swiper-button-prev {
+    top: 91%;
   }
 }
